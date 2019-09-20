@@ -1,0 +1,325 @@
+*{
+margin:0;
+padding:0;
+
+}
+
+header{
+                        width:100%;
+                            height:70px;
+                        background: white;
+}
+
+#nav
+{
+    width:1200px;               margin:0 auto;
+    height: 70px;               padding: 0;
+    background: white;          margin-top: 10px;
+
+  
+    
+ 
+}
+
+.nav1
+{
+               width: 100px;                 
+                height: 70px;       
+                float: left;
+
+}
+img
+{
+    width:75px;                    padding: 2px;         box-shadow: 0px 0px 10px; 
+    height: 68px;                  float: left;             border-radius: 10px;
+    animation: img 1s linear infinite;
+    
+    
+ 
+    
+    
+}
+
+@keyframes img{
+    0%{
+        box-shadow: 0px 0px 10px;
+    }
+    100%{
+        box-shadow: 0px 0px 20px;
+    }
+}
+#hnav
+{
+    color:beige;
+    float:right;
+}
+.nav2
+{
+            width: 1100px;          box-shadow: 0px 0px 10px; 
+            height: 50px;           float: right;
+
+    
+
+    
+}
+
+ul
+{
+
+                margin:0;           list-style-type: none;                     
+                padding: 0;         font-size: 20px;            font-style: italic;
+                color:black;        font-family:Times New Roman ;
+
+
+   
+    
+            
+}
+ul li
+            {
+
+                float: left;
+                width:150px;       height:40px;
+                margin-top:10px;   text-align: center;
+
+
+
+
+            }
+
+ul li a
+{
+    
+  text-decoration: none;  
+    color:black;
+    display: block;
+    
+}
+
+ul li a:hover
+{
+    color:black;
+    
+    
+}
+ul li:hover 
+{
+    border-bottom: 3px solid red;
+    color:black;
+ text-shadow:1px 3px 10px black;        -webkit-text-shadow:1px 3px 10px black;
+    
+}
+
+ul li:hover a
+{
+    color: black;
+    font-weight:bold;
+   
+    
+}
+form
+{
+    margin-left: 40px;
+}
+input[type]
+{
+    width:200px;
+    height:10px;
+    padding:20px;
+    margin-left:20px;
+    border-top-left-radius: 5px;            -webkit-   border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;         -webkit-   border-bottom-left-radius: 5px;
+    margin:5px;
+    border:none;
+    box-shadow: 0px 0px 5px;
+    transition: .5s ease;
+    
+    
+}
+input[type]:hover{
+    width:250px;
+    box-shadow: 0px 0px 15px;
+    color:blue;
+      border-top-left-radius: 10px;           -webkit-      border-top-left-radius: 10px;
+                                               -webkit-     border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+button
+{
+    width:75px;
+    height:40px;
+    padding:5px;                            transition: .5s ease;
+    margin-left:-9px; border-bottom-right-radius: 5px;          -webkit-        border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;                              -webkit-         border-top-right-radius: 5px;
+    border:none; box-shadow: 0px 0px 5px;   
+    
+}
+button:hover
+{
+    box-shadow: 0px 0px 10px blue;
+    border-bottom-right-radius: 10px; border-top-right-radius: 10px;
+    
+}
+
+#below
+{
+    width:1200px;   height:200px;      border:none; 
+  margin:0 auto;    padding: 0;         margin-top:20px;
+    box-shadow: 0px 0px 20px ;          -webkit-box-shadow:0px 0px 20px;
+    border-radius: 10px;
+    
+}
+
+#below1
+{
+    width:300px; height:150px;  border:none;    
+    float:left;     box-shadow: 0px 0px 5px;    -webkit-box-shadow:0px 0px 5px;
+    margin: 20px; margin-left:100px;            transition:.3s ease;
+}
+#below2{
+    width:300px; height:150px;  border:none;    
+     float:left;    box-shadow: 0px 0px 5px;    -webkit-box-shadow:0px 0px 5px;
+    margin: 20px;                               transition:.3s ease;
+}
+
+#below3
+{
+    width:300px; height:150px;  border:none;    
+    float:left;     box-shadow: 0px 0px 5px;    -webkit-box-shadow:0px 0px 5px;
+    margin: 20px;                                  transition:.3s ease;
+}
+#back{
+    width:0px;
+    height: 150px;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    transition: .7s ease; 
+}
+#below1:hover #back{
+    width: 300px;
+    
+}
+h1{
+    color: white;               border: 3px solid white;
+  overflow: hidden;                           transform: translate(50px , 50px);
+    justify-content: center;                        font-size: 20px;
+    align-items: center;position: absolute;                   padding: 5px ;
+  
+    
+   
+    
+    
+}
+
+
+
+
+#below1:hover
+{
+    box-shadow: 0px 0px 40px;               -webkit-box-shadow:0px 0px 40px;
+}
+
+#below2:hover
+{
+    box-shadow: 0px 0px 40px;               -webkit-box-shadow:0px 0px 40px;
+}
+
+#below3:hover
+{
+    box-shadow: 0px 0px 40px;               -webkit-box-shadow:0px 0px 40px;
+}
+
+
+#ballwrapper
+{
+    width:1200px;       height:50px;  margin:20px;  margin:0 auto;
+    padding: 0 ;   position: relative;
+}
+#ball1
+{
+    width:30px;     height:30px;    background: white;        float:left; position: relative;
+    border-radius: 50%;          box-shadow: 0px 0px 20px;  animation:ball 2s infinite;
+    animation-direction: alternate;
+}
+
+#ball2
+{
+    width:30px;     height:30px;    background: white;        float:right;    position: relative;
+    border-radius: 50%;          box-shadow: 0px 0px 20px;  animation:ball2 2s infinite;
+    animation-direction: alternate;
+}
+@keyframes ball{
+    0%{
+        left:0px;
+        
+        
+    }
+    50%{
+        left:300px;
+        box-shadow: 0px 0px 35px;
+            
+            
+        
+    }
+    100%{
+        left:600px;
+        box-shadow: 0px 10px 50px black;
+    }
+    
+    
+}
+@keyframes ball2{
+    0%{
+        right:0px;
+        
+    }
+    50%{
+        right:300px;
+        box-shadow: 0px 0px 35px;
+    }
+    100%{
+        right:600px;
+        box-shadow: 0px 10px 50px black;
+    }
+}
+#items{
+    margin:0 auto;
+    padding: 0;         width:1200px;
+                height:650px;
+}
+#left{
+    width:350px;            float: left;
+    height: 600px;              border-radius: 5px;
+    box-shadow: 0px 0px 10px;       transition: .3s ease;
+    
+        
+}
+#middle{
+    width:350px;            float: left;
+    height: 600px;          margin-left: 70px;
+    box-shadow: 0px 0px 10px;   border-radius: 5px;     transition: .3s ease;
+    
+        
+}
+#right{
+    width:350px;            float: right;
+    height: 600px;          border-radius: 5px;
+    box-shadow: 0px 0px 10px;       transition: .3s ease;
+    
+        
+}
+
+#left:hover
+{
+    box-shadow: 0px 0px 30px;
+}
+#middle:hover
+{
+    box-shadow: 0px 0px 30px;
+}
+#right:hover
+{
+    box-shadow: 0px 0px 30px;
+}
